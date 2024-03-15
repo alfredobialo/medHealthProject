@@ -23,6 +23,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "testing", "testing", "{83A3
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "medHealth.unitTesting", "testing\medHealth.unitTesting\medHealth.unitTesting.csproj", "{7DF400E6-759A-4E0B-8598-FA29B5B240E4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "application", "application", "{E48809EA-5F9C-4E10-AF05-C307E23805C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "medHealth.application", "application\medHealth.application\medHealth.application.csproj", "{2A7897D3-9C6F-4E53-8D0C-7C1D225CC6F2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -52,6 +56,10 @@ Global
 		{7DF400E6-759A-4E0B-8598-FA29B5B240E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7DF400E6-759A-4E0B-8598-FA29B5B240E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7DF400E6-759A-4E0B-8598-FA29B5B240E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A7897D3-9C6F-4E53-8D0C-7C1D225CC6F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A7897D3-9C6F-4E53-8D0C-7C1D225CC6F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A7897D3-9C6F-4E53-8D0C-7C1D225CC6F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A7897D3-9C6F-4E53-8D0C-7C1D225CC6F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{E4821930-C0B4-4AFD-96ED-3EF0C373FF0E} = {B759D925-344E-41FA-9468-7F0460FFAB08}
@@ -59,5 +67,6 @@ Global
 		{51D1B9EA-D3EB-422C-A935-1284D97CE32B} = {BD8CC7D3-7134-4393-A2D9-5B00672691D5}
 		{3CB731F1-0606-4228-AD4C-FAB3DCFEB29C} = {CC8F1CA4-516E-4CB0-83E6-771B5BA5A918}
 		{7DF400E6-759A-4E0B-8598-FA29B5B240E4} = {83A3E3EA-1B62-49F0-9CD6-C8FA1AF43AEF}
+		{2A7897D3-9C6F-4E53-8D0C-7C1D225CC6F2} = {E48809EA-5F9C-4E10-AF05-C307E23805C8}
 	EndGlobalSection
 EndGlobal
